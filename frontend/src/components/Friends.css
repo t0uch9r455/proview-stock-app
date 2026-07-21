@@ -1,0 +1,58 @@
+.friends {
+    display: flex;
+    height: 100vh;
+}
+
+.friends_container {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.part {
+    display: flex;
+    height: 100vh;
+}
+
+.friendlist {
+    flex: 0.375;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.friendlist_2 {
+    flex: 0.375;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.div_1 {
+    flex: 0.35;
+}
+.div_2 {
+    flex: 0.65;
+}
+
+.frdList {
+    border-right: 2px solid #9e83fa;
+}
+
+.frdSearchBar {
+    flex: 0.35;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 50px;
+    align-items: center;
+}
+
+.searchButton {
+    align-items: center;
+}
+
+.friendsHeader {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}

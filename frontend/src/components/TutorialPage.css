@@ -1,0 +1,107 @@
+.tut {
+    margin-top: 10px;
+    height: 95vh;
+}
+
+.tutbody {
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+.tutbody::-webkit-scrollbar {
+    display: none;
+}
+
+.StockConcept {
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(127, 255, 212, 0.15);
+    padding: 50px;
+    box-shadow: 0 15px 35px rgba(100, 100, 100, 0.35);
+    margin-top: 50px;
+    margin-left: 8vw;
+    width: 70vw;
+}
+.StockText {
+    flex: 0.5;
+}
+.StockVideo {
+    margin-left: 50px;
+    flex: 0.5;
+}
+
+.StockMarketConcept {
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(85, 223, 113, 0.15);
+    box-shadow: 0 15px 35px rgba(100, 100, 100, 0.35);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 8vw;
+    width: 70vw;
+}
+.StockMarketText {
+    flex: 0.5;
+}
+.StockMarketVideo {
+    margin-left: 50px;
+    flex: 0.5;
+}
+
+.ChooseStockConcept {
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(54, 226, 166, 0.15);
+    box-shadow: 0 15px 35px rgba(100, 100, 100, 0.35);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 8vw;
+    width: 70vw;
+}
+.ChooseStockText {
+    flex: 0.5;
+}
+.ChooseStockVideo {
+    margin-left: 50px;
+    flex: 0.5;
+}
+
+.ReadStockConcept {
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(119, 229, 241, 0.15);
+    box-shadow: 0 15px 35px rgba(100, 100, 100, 0.35);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 8vw;
+    width: 70vw;
+}
+.ReadStockText {
+    flex: 0.5;
+}
+.ReadStockVideo {
+    margin-left: 50px;
+    flex: 0.5;
+}
+
+.InvestConcept {
+    display: flex;
+    border-radius: 25px;
+    background-color: rgba(115, 189, 242, 0.15);
+    box-shadow: 0 15px 35px rgba(100, 100, 100, 0.35);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 8vw;
+    width: 70vw;
+}
+.InvestText {
+    flex: 0.5;
+}
+.InvestVideo {
+    margin-left: 50px;
+    flex: 0.5;
+}
+
+.tutHeader {
+    text-align: center;
+}

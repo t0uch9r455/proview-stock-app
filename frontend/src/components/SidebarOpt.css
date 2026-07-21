@@ -1,0 +1,35 @@
+.sidebarOption {
+    border: 0;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+    /* padding: 0; */
+    width: 100%;
+    /* margin-left: 20px; */
+    justify-content: left;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+}
+
+.sidebarOption:hover {
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: #00d719;
+    transition: color 200ms ease-out;
+}
+
+.sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* .icon {
+    width: 100%;
+}
+.icon:hover {
+    width: 50%;
+} */

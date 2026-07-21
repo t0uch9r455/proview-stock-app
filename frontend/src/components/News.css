@@ -1,0 +1,19 @@
+.news_header {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+.news_whole {
+    flex: 0.8;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.news_body {
+    height: 90vh;
+    overflow-y: scroll;
+}

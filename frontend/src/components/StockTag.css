@@ -1,0 +1,49 @@
+.border_2 {
+    /* width: fix-content; */
+    cursor: pointer;
+    /* flex: nowrap; */
+    /* width: 500px; */
+}
+
+.border_2 span {
+    display: inline-block;
+}
+
+.st1 {
+    width: 120px;
+}
+.st77 {
+    width: 160px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.st2 {
+    width: 120px;
+}
+.st7 {
+    width: 120px;
+}
+.st8 {
+    width: 120px;
+}
+.st9 {
+    width: 120px;
+}
+.st3 {
+    width: 140px;
+}
+
+.st4 {
+    width: 160px;
+}
+.st5 {
+    width: 160px;
+}
+
+.border {
+    border: 0px;
+}
+
+.nothing{
+    padding: 0;
+}

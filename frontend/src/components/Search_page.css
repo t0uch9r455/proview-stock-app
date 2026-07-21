@@ -1,0 +1,44 @@
+.flex_container {
+    height: 100vh;
+}
+
+.search_component {
+    margin-top: 30px;
+}
+
+.searchHeader {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.search {
+    margin-top: 10px;
+    text-align: center;
+    /* align-items: center; */
+    width: 100% !important;
+}
+.input {
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_component Stock {
+    width: 100%;
+}
+
+.searchButton {
+    color: black !important;
+    background: rgb(195, 232, 186) !important;
+}
+
+.personalWatchList {
+    color: black !important;
+    background: rgb(195, 232, 186) !important;
+}

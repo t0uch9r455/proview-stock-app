@@ -1,0 +1,21 @@
+.alarmpage {
+    height: 100vh;
+}
+
+.alarm {
+    flex: 0.8;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    /* margin-left: 35%; */
+}
+
+.alarmHeader {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}

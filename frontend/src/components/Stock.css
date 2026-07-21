@@ -1,0 +1,27 @@
+.stock {
+    min-width: fit-content;
+    background: #f3f4f6;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-right: 70px; */
+    margin-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.05),
+        inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* .plot {
+    width: auto;
+}
+
+.stockPlot {
+    width: auto;
+    /* align-items: center; 
+}
+
+.modebar-container {
+    width: auto;
+} */

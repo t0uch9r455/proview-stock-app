@@ -1,0 +1,65 @@
+.avaUpload {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f3f4f6;
+    width: fit-content;
+    padding: 5vh;
+
+    border-radius: 30px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.05),
+        inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.avatar_uploaded {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 4vh;
+    margin: 2vh;
+}
+
+.avatar_preview {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 4vh;
+    margin: 2vh;
+}
+
+.avaSubmit.active {
+    display: none;
+}
+
+.avaSubmit {
+    width: fit-content;
+}
+
+.submitAvatar {
+    background-color: rgb(66, 203, 173);
+    border: 0;
+    border-radius: 1vh;
+    padding: 10px;
+}
+
+.twoAva {
+    display: flex;
+    width: fit-content;
+}
+
+.chosenAva {
+    flex: 1;
+    text-align: center;
+}
+
+.chosenAva.active {
+    display: none;
+}
+
+.currentAva {
+    flex: 1;
+    text-align: center;
+}
+
+.h3_avatar {
+    font-style: italic;
+}

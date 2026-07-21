@@ -1,0 +1,46 @@
+.chat_page {
+    height: 90vh;
+}
+
+.chat_container {
+    flex: 0.8;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.chat_header {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.flex_container {
+    /* display: flex; */
+}
+
+.friend_list {
+    flex: 0.25;
+    margin-right: 25px;
+}
+
+.chat_component {
+    flex: 1;
+    margin-top: 30px;
+}
+
+.chatHeader {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.chat_down {
+    display: flex;
+    height: 92vh;
+}

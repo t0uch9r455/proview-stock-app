@@ -1,0 +1,59 @@
+.profile {
+    margin-top: 30px;
+}
+
+.profile_header {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.profile_flex {
+    display: flex;
+}
+
+.info_flex {
+    flex: 0.5;
+}
+
+.avatar_flex {
+    flex: 0.5;
+}
+
+.biologyboard {
+    margin-top: 30px;
+    max-width: 50vh;
+    /* min-height: 40vh; */
+    height: fit-content;
+    padding: 5vh;
+    background-color: #f3f4f6;
+    border-radius: 30px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.05),
+        inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.biology_area {
+    padding: 10px;
+    width: 100%;
+}
+
+.bio_content {
+    cursor: pointer;
+}
+
+.savebio.active {
+    display: none;
+}
+
+.savebio {
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(151, 234, 215);
+    width: fit-content;
+    padding: 10px;
+}

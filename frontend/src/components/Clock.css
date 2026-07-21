@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+.bar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 35%;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}

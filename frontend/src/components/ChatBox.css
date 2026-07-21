@@ -1,0 +1,103 @@
+.chatBox {
+    background-color: #f3f4f6;
+    flex: 0.72;
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+    margin: 0;
+
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.05),
+        inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.inputBar {
+    flex: 0.05;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+
+    box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.1),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.1), 0 50px 40px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+}
+
+.inputfield {
+    flex: 0.9;
+    border: 0px;
+    background-color: white;
+    width: 80%;
+}
+
+.send {
+    flex: 0.1;
+    border: 0;
+    padding: 15px;
+    margin: 3px;
+    border-radius: 10px;
+
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+        15px 15px 15px rgba(0, 0, 0, 0.05),
+        inset 4px 4px 5px rgba(255, 255, 255, 0.8),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    flex: 0.95;
+    overflow: scroll;
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+.msgline {
+    width: 100%;
+    padding: 20px;
+}
+
+.message-sent {
+    /* inline-size: 40vw; */
+    overflow-wrap: break-word;
+    background-color: aquamarine;
+    float: right;
+    width: fit-content;
+    max-width: 40vw;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+
+    box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.05),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.message-received {
+    overflow-wrap: break-word;
+
+    margin-left: 15px;
+    background-color: rgb(255, 179, 98);
+    float: left;
+    width: fit-content;
+    max-width: 40vw;
+    padding: 10px;
+    border-radius: 10px;
+
+    box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.05),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.05), 0 50px 40px rgba(0, 0, 0, 0.05);
+}
+
+.msgTag-sent {
+    display: flex;
+    float: right;
+}
+
+.msgTag-received {
+    display: flex;
+    float: left;
+}

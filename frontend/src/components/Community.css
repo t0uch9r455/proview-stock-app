@@ -1,0 +1,41 @@
+.community {
+    /* display: flex; */
+
+    height: 100vh;
+}
+
+.hotHeader {
+    background-color: rgb(195, 232, 186);
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.find {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.community_component {
+    margin-top: 30px;
+    /* flex: 1; */
+}
+
+.list1 {
+    display: 0.5;
+    width: 50%;
+}
+
+.list2 {
+    display: 0.5;
+    width: 50%;
+}
+
+.groups {
+    width: 60%;
+    margin-left: 20%;
+}
